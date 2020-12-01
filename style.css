@@ -186,3 +186,23 @@ p{
         padding:0 50 px;
     }
 }
+
+.line{
+    height:5px;
+    width:100%;
+    background: lightgray;
+    position: relative;
+}
+
+.line::before{
+    content: "";
+position: absolute;
+height: 100%;
+left:0;
+top:0;
+background:black
+}
+h3{
+text-align: center;
+font-size: 25px;
+}
